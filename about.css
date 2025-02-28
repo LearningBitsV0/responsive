@@ -1,0 +1,667 @@
+/* navbar icones and images */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.main {
+    height: auto;
+}
+
+/* Navbar Styling */
+.nav {
+    width: 100%;
+    height: 250px;
+    /* Default height */
+    background-image: url('icones/nav/Default.png');
+    /* Background Image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+.sub-nav {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+
+/* Logo/Icon */
+.nav-icon-img {
+    width: 10rem;
+    /* Adjust size */
+    height: auto;
+    margin: 28px;
+    margin-left: 6rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Navbar Left Section */
+.nav-left {
+    width: 30%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Mobile Navigation Menu (Hidden by Default) */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Right Navigation */
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    align-items: center;
+    height: 188px;
+
+}
+
+.right-nav-pages a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.right-nav-button {
+    background-color: #277A9A;
+
+
+    all: unset;
+    /* Removes all default styles */
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* body of about */
+
+.about-body-containers {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    /* row-gap: 4rem; */
+}
+
+.main-container1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.sub-container1 {
+    max-width: 73rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    row-gap: 1rem;
+
+}
+
+.container-first-head h2 {
+    font-weight: 200;
+    color: #0056b3e6;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #0056b3;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container-about-para p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 2rem;
+}
+
+.container-img1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img1 img {
+    width: 55%;
+    height: 40%;
+    margin-bottom: 8rem;
+}
+
+/* seconde container */
+
+.main-container2 {
+    background-color: #70707029;
+    height: 18rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.container2-about-list ul li {
+    list-style-type: circle;
+    margin-bottom: 6px;
+
+}
+
+.container2-about-list ul li::marker {
+    font-size: 6px;
+}
+
+/* third container */
+.main-container3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container3 img {
+    width: 60%;
+}
+
+/* fourth container */
+.main-container4 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: -10rem;
+    color: rgb(255, 255, 255);
+}
+
+.main-container4-left {
+    width: 50%;
+    height: 22rem;
+    background-color: #175BA7;
+
+}
+
+.main-container4-right {
+    width: 50%;
+    height: 22rem;
+    background-color: #1C8ECE;
+}
+
+.container4-first-head h2 {
+    color: #FFFFFF;
+    font-weight: 100;
+
+}
+
+.container4-second-head h1 {
+    color: #FFFFFF;
+}
+
+.sub-container4-left {
+    margin: 2rem 0px 0px 6rem
+}
+
+.sub-container4-right {
+    margin: 2rem 0 0 4rem;
+}
+
+/* fifth container */
+.main-container5 {
+    width: 100%;
+    height: auto;
+
+}
+.sub-div-container5{
+    width: 49%;
+    padding-left: 92px;
+    height: 20rem;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.sub-container5 div h2 {
+    font-weight: 100;
+    color: #0056b3;
+
+}
+
+.sub-container5 div h1 {
+    color: #0056b3;
+
+}
+
+.sub-container5 div p {
+    width: 100%;
+}
+
+.sub-container5 {
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+
+}
+
+/* animation using timeline */
+
+.main-timeline {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 72%;
+    background-color: #f8f9fa;
+    display: flex
+;
+    justify-content: start;
+    position: relative;
+    align-items: center;
+    height: 20rem;
+}
+
+/* .timeline-container {
+    width: 69%;
+    position: relative;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline {
+    position: relative;
+    height: 2px;
+    background: #dcdcdc !important; 
+    z-index: 0; 
+}
+
+.timeline-progress {
+    position: absolute;
+    height: 100%;
+    background: #3D5AF1;
+    width: 10rem;
+    z-index: 1;
+    animation: timeline-animation 7s linear forwards; 
+}
+
+@keyframes timeline-animation {
+    0% { width: 0; }
+    100% { width: 100%; }
+} */
+/* Add these corrected styles */
+.timeline-container {
+    width: 93%;
+    position: relative;
+    margin: 100px 0;
+}
+
+.timeline {
+    position: relative;
+    height: 2px;
+    background: #F8F9FA !important; /* Visible track color */
+    z-index: 0;
+    width: 100%; /* Add this */
+}
+
+.timeline-progress {
+    position: absolute;
+    height: 100%;
+    background: #3D5AF1; /* Progress bar color */
+    width: 0;
+    z-index: 1; /* Above track but below circles */
+    animation: timeline-animation 7s linear forwards;
+}
+
+@keyframes timeline-animation {
+    0% { width: 0; }
+    100% { width: 100%; } /* Full width animation */
+}
+
+/* Ensure circles stay on top */
+.circle {
+    z-index: 2; /* Higher than timeline elements */
+    /* rest of your circle styles */
+}
+
+.event {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    opacity: 0;
+    /* Initially hidden */
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #22D1EE;
+    border-radius: 50%;
+    margin: -4px auto;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insidecircle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subinsidecircle{
+    width: 9px;
+    height: 9px;
+border-radius: 50%;
+background-color: #22D1EE;
+}
+
+.iconarrow img {
+    z-index: 0;
+}
+
+.year {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.desc {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.iconarrow img {
+    height: 60px;
+}
+
+/* sub container images */
+.sub-container5-img {
+    height: 35rem;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.sub-container5-img-key {
+    width: 85%;
+    height: 25rem;
+
+}
+
+.main-container6 {
+    height: 10rem;
+    background-color: #70707029;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+}
+
+.sub-container6-text {
+    margin: 0rem 0 0 6rem;
+    width: 80%;
+    height: 15rem;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2rem;
+
+
+}
+
+.sub-container6-text h1 {
+    color: #0056b3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-container6-text h2 {
+    color: #0056b3;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-container6-text p {
+    width:100%;
+}
+
+.main-container7 {
+    width: 100%;
+
+    margin: 3rem 0 0 0;
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+
+
+
+}
+.main-container7 video{
+    width: 100%;
+    height: 20rem;
+
+}
+.main-container7 video source{
+    width: 100%;
+    height: 30rem;
+}
+
+.circle-percentage {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-percentage::before {}
+
+.circle-inner {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.circle-percentage::after {}
+
+/* eight container */
+
+.main-container8 {
+    margin: 6rem 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container8 img {
+    width: 50%;
+    height: 30%
+}
+
+/* nineth container */
+.main-container9 {
+    background-color: #1C8ECE;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 100%;
+    height: 22rem;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main-container9 div {
+    margin: 01rem 0 0 0rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-container10 {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sub-container10 {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 11rem;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+.sub-container10-text {
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #0056b3;
+}
+
+.sub-container10-image {
+    width: 6rem;
+    height: 3rem;
+    position: relative;
+    display: inline-block;
+
+
+
+}
+
+.sub-container10-image img {
+    width: 22rem;
+    height: 58px;
+    /* z-index: 3; */
+}
+
+.sub-container10-img-inner-text {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 20rem;
+    transform: translate(-50%, -50%); /* Center the div */
+    
+    color: white;
+    /* padding: 20px; */
+    text-align: center; /* Center the text within the div */
+    border-radius: 10px;
+    /* z-index: 1; */
+    
+    position: absolute;
+    top: 56%;
+    left: 11rem;
+}
+
+#footer {
+    width: 100%;
+    height: 21rem;
+    background-color: #175BA7;
+}
+
+/* 📌 RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .nav {
+        height: 60px;
+        /* Reduce navbar height on small screens */
+        padding: 0 10px;
+    }
+
+    .nav-icon-img {
+        width: 50px;
+    }
+
+    /* Hide nav links and show menu icon */
+    .nav-left {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav-left a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

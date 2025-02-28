@@ -1,0 +1,29 @@
+.arabic-style {
+    direction: rtl;
+    text-align: right;
+    font-family: "Cairo", sans-serif; /* Example Arabic font */
+  }
+
+.arabic-style .nav-icon-img {
+    width: 10rem;
+    height: auto;
+    margin: 28px;
+    margin-left: 0rem;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}  
+/* .arabic-style .nav-second-left-img a {
+    padding-right: 14px;
+} */
+.arabic-style .nav-second-left-img a {
+
+    margin-right: 30px;
+}
+.arabic-style .nav-second-section{
+    width: 93%;
+}
+.arabic-style .right-nav{
+    gap: 30px;
+    font-size: x-large;
+}

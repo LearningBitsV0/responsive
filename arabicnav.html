@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <title>Document</title>
+    <style>
+        /* Default LTR styles */
+        body {
+            direction: ltr;
+            text-align: left;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .sub-nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Arabic (RTL) styles */
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .rtl .nav {
+            flex-direction: row-reverse;
+        }
+
+        .rtl .right-nav {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .rtl .right-nav img {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="nav" id="navbar">
+        <div class="sub-nav">
+            <div class="right-nav">
+                <img
+                src="icones/nav/Limitless_Solutions_White_Logo_WebHighRes_500x500 2 (2).png"
+                alt="limitless"
+                />
+                <div class="right-nav-pages"><a href="home.html">HOME</a></div>
+                <div class="right-nav-pages"><a href="about.html">ABOUT US</a></div>
+                <div class="right-nav-pages"><a href="services.html">SERVICES</a></div>
+                <div class="right-nav-pages"><a href="portfolio/portfolio.html">PORTFOLIO</a></div>
+                <div class="right-nav-pages"><a href="contact.html">CONTACT</a></div>
+                <div class="right-nav-pages"><a href="career.html">CAREERS</a></div>
+                <div class="right-nav-pages">
+                    <button class="right-nav-button" id="languageToggle">العربية</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleBtn = document.getElementById("languageToggle");
+            toggleBtn.addEventListener("click", function () {
+                document.body.classList.toggle("rtl");
+
+                // Change button text dynamically
+                if (document.body.classList.contains("rtl")) {
+                    toggleBtn.textContent = "EN"; // Switch to English
+                } else {
+                    toggleBtn.textContent = "العربية"; // Switch to Arabic
+                }
+            });
+        });
+    </script>
+</body>
+</html>

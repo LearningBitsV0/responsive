@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="career.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- navbar -->
+      <div id="navbar"></div>
+      <!-- containers -->
+      <div class="main-container">
+        <!-- first container -->
+
+        <div class="first-container">
+          <div class="form-main">
+            <form action="" class="main-form">
+              <div class="personal-form">
+                <div class="head-text">
+                  <div>
+                    <h2>Personal Information</h2>
+                  </div>
+                  <div class="personal-field-cls">
+                    <div class="name">
+                      <div class="first-name">
+                        <label for="">First name*</label>
+                        <input
+                          type="text"
+                          placeholder="First Name"
+                          name=""
+                          id=""
+                        />
+                      </div>
+                      <div class="last-name">
+                        <label for="">Last Name*</label>
+                        <input
+                          type="text"
+                          placeholder="Last Name"
+                          name=""
+                          id=""
+                        />
+                      </div>
+                    </div>
+                    <div class="gen-mar">
+                      <div class="gender">
+                        <label for="Country">Gender*</label
+                        ><select class="ui-dropdown">
+                          <option value="">--select--</option>
+                          <option value="1">MALE</option>
+                          <option value="0">FEMALE</option>
+                        </select>
+                      </div>
+                      <div class="martial-status">
+                        <label for="Country">Marital Status**</label
+                        ><select class="ui-dropdown">
+                          <option value="">--select--</option>
+                          <option value="0">Married</option>
+                          <option value="1">Single</option>
+                          <option value="2">Divorced</option>
+                          <option value="3">Cohabiting</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="country">
+                      <div class="sub-country">
+                        <label for="Country">Country*</label
+                        ><select class="ui-dropdown">
+                          <option value="">--select--</option>
+                          <option value="1">UAE</option>
+                          <option value="0">KSA</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div></div>
+              </div>
+              <div class="contact-form">
+                <div class="head-text">
+                  <div>
+                    <h2>Contact Information</h2>
+                  </div>
+                  <div class="personal-field-cls">
+                    <div class="name">
+                      <div class="first-name">
+                        <label for="">First name*</label>
+                        <input
+                          type="text"
+                          placeholder="First Name"
+                          name=""
+                          id=""
+                        />
+                      </div>
+                      <div class="last-name">
+                        <label for="">Last Name*</label>
+                        <input
+                          type="text"
+                          placeholder="Last Name"
+                          name=""
+                          id=""
+                        />
+                      </div>
+                    </div>
+                    <div class="upload-file">
+                        <div class="file-upload">
+                            <label>
+                              <input type="file" name="cv">
+                              <div class="button cv">Upload CV</div>
+                            </label>
+                          </div>
+                          <div class="file-upload">
+                            <label>
+                              <input type="file" name="cover-letter">
+                              <div class="button cover">Upload Cover Letter</div>
+                            </label>
+                            <p class="info-text">Upload your cover letter in the following formats: .pdf, .doc, .docx.</p>
+                          </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button class="submit-button" type="submit">Submit</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- success full form submition -->
+        <!-- <div class="main-successfull-container">
+          <div class="sub-successfull-message">
+            <div class="text-successfull-message">
+              <h1>Your inquiry has been successfully submitted.</h1>
+            </div>
+            <div class="text-successfull-message">
+              <p>Our team will be in touch within 48 hours</p>
+            </div>
+          </div>
+        </div> -->
+        <!-- bottom container -->
+        <div class="main-bottom-container">
+          <div class="sub-bottom-container">
+            <div class="sub-bottom-container-text">
+              Find More by checking our profile
+            </div>
+            <div class="sub-bottom-container-image">
+              <img src="icones/about/53672666065 1.png" alt="" />
+              <a href="about.html" class="sub-bottom-container-img-inner-text">
+                Explore Our Company Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div id="footer"></div>
+    </div>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+  </body>
+</html>

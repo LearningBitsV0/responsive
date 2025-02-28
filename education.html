@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category Cards</title>
+    <link rel="stylesheet" href="education.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- navbars -->
+      <div id="navbar"></div>
+      <!-- containers -->
+      <div class="container">
+        <!-- first container -->
+        <div class="first-container">
+          <div class="first-container-headline">
+            <div><img src="icones/education/Layer_1 (4).png" alt="" /></div>
+            <div><h1>EDUCATION</h1></div>
+          </div>
+          <div class="first-container-para">
+            <p>
+              Our medical team focus on innovation. We provide CME
+              Accreditation from different accrediting bodies (DoH (HAAD), DHA,
+              UAE MOH, SCFHS-through Mumaris / Mustamir System). We identify the
+              unmet needs of our customers and work on satisfying them.
+            </p>
+            <p>
+              We work with the World-Leading Publishers and writers to derive
+              unique Medical Content of high value. We provide quality-oriented
+              and value-added content that helps our clients in their day to day
+              work. Our services include:
+            </p>
+          </div>
+        </div>
+        <!-- second container -->
+        <div class="second-container">
+          <div class="second-container-left">
+            <h1 class="second-container-left-head">CME Accreditation</h1>
+          </div>
+          <div class="second-container-right">
+            <div class="second-container-right-texts">
+              <div class="sub-second-container-right-texts">
+                <h1 class="second-container-right-head">
+                  Medical Content Writing
+                </h1>
+                <ul class="second-container-right-ul">
+                  <li class="second-container-right-li">
+                    Medical Content Conceptualization & Adaptation
+                  </li>
+                  <li class="second-container-right-li">
+                    Journal Subscription & Publishing in Medical Journals
+                  </li>
+                  <li class="second-container-right-li">
+                    Medical Writing & Translation Services
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- third container -->
+        <div class="third-container">
+          <a href="MICE.html" class="left-third-container">
+            <span><<</span>
+            <div>M.I.C.E</div>
+             
+          </a>
+          <div class="middle-third-container">
+            <div class="sub-middle-third-container">
+              <h2>We can help in</h2>
+              <h1>many ways!</h1>
+              <a href="contact.html" class="middle-third-container-img">
+                Inquire Now
+              </a>
+            </div>
+          </div>
+          <a href="design.html" class="right-third-container">
+            <div>Design</div>
+            <span>>></span>
+          </a>
+        </div>
+      </div>
+      <!-- footer -->
+      <div id="footer"></div>
+    </div>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+  </body>
+</html>

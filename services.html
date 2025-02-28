@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="services.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- nav -->
+      <div id="navbar"></div>
+      <!-- containers -->
+      <div class="main-containers">
+        <div>
+          <!-- first container -->
+          <div class="main-container-first">
+            <div class="sub-container-first-text">
+              <h2>Our</h2>
+              <h1>SERVICES</h1>
+            </div>
+          </div>
+        </div>
+        <div class="main-container-second">
+          <div class="main-container-second-cards">
+            <div class="cards-container-second">
+              <div class="card">
+                <div>
+                <img src="icones/service/MICE_card.png" alt="MICE"></div>
+                <h2>M.I.C.E</h2>
+                <a href="MICE.html">Read More</a>
+                <span></span>
+            </div>
+            <div class="card">
+              <div>
+                <img src="icones/service/Isolation_Mode.png" alt="Education"></div>
+                <h2>Education</h2>
+                <a href="education.html">Read More</a>
+                <span></span>
+            </div>
+            <div class="card">
+              <div>
+                <img src="icones/service/Design_card.png" alt="Design"></div>
+                <h2>Design</h2>
+                <a href="design.html">Read More</a>
+                <span></span>
+            </div>
+            <div class="card">
+              <div>
+                <img src="icones/service/Exhibition_card.png" alt="Exhibition"></div>
+                <h2>Exhibition</h2>
+                <a href="exhibition.html">Read More</a>
+                <span></span>
+            </div>
+            <div class="card">
+              <div>
+                <img src="icones/service/Technology_card.png" alt="Technology"></div>
+                <h2>Technology</h2>
+                <a href="technology.html">Read More</a>
+                <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- third container -->
+      <div class="main-container3">
+        <img src="icones/service/LS Logo 02 1.png" alt="icone3" />
+      </div>
+      <!-- fourth container -->
+      <div class="main-container4">
+        <div class="sub-container4">
+          <div class="sub-container4-text">
+            Find More by checking our profile
+          </div>
+          <div class="sub-container4-image">
+            <img src="icones/about/53672666065 1.png" alt="" />
+            <a href="contact.html" class="sub-container4-img-inner-text">
+              Explore Our Company Profile
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Footer container -->
+      <div id="footer"></div>
+    </div>
+
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error loading navbar:", error);
+        });
+    </script>
+  </body>
+</html>

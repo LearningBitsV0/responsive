@@ -1,0 +1,166 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.footer-container {
+    background: #175BA7;
+    width: 100%;
+    height: 500px;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Footer Logo */
+.footor-logo {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Home Section */
+.footer-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #005AA9;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.7); */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Social Media Links */
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.media-links p {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.socialmedia {
+    width: 35px;
+    height: auto;
+}
+
+/* Footer Links */
+.footer-contents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-contents p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+/* Copyright */
+.footer-limitlesssolutions {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-contents a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footor-logo {
+        width: 120px;
+    }
+
+    .image-text {
+        font-size: 14px;
+    }
+
+    .media-links p {
+        font-size: 16px;
+    }
+
+    .socialmedia {
+        width: 30px;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-contents p {
+        display: inline-block;
+        margin: 5px;
+    }
+    .footer-contents a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 480px) {
+    .footor-logo {
+        width: 100px;
+    }
+
+    .image-text {
+        font-size: 12px;
+        padding: 3px 7px;
+    }
+
+    .media-links p {
+        font-size: 14px;
+    }
+
+    .socialmedia {
+        width: 25px;
+    }
+
+    .footer-contents p {
+        font-size: 10px;
+    }
+    .footer-contents a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mice.css">
+</head>
+<body>
+
+    <div id="navbar"></div>
+    <!-- Navbar container (Placed at the top) -->
+    
+    <div>
+        <div class="first-container-headline">
+            <div><img src="icones/mice/Layer_1 (1).png" alt="" /></div>
+            <div><h1>M.I.C.E</h1></div>
+          </div>
+        <!-- <div class="micecontainer">
+
+            <img src="" alt="Description of the image" class="mice-logo">
+            <p></p>
+        </div> -->
+<p class="miceparagraph">MICE stands for Meetings, Incentive, Conferences and Exhibitions. The MICE Division customizes and plans <br/>Corporate & Business Conferences. Our Incentive division is handled by a dedicated team of professionals. </p>
+    </div>
+    <div class="micemaindiv">
+        <div>
+
+            <div class="micesubdiv">
+    <p>Attendees Management</p>
+    <div class="firstcontainercontents">
+
+        <ul>
+            <li>Flight Tickets</li>
+            <li>Attendees Data</li>
+            <li>Invitation Distribution</li>
+            <li>Online Registration</li>
+            <li>Accommodation Arrangement</li>
+            <li>Meeting Arrangement</li>
+            <li>Additional Sessions Management</li>
+            <li>Speaker Communication</li>
+            <li>Transportation Management</li>
+            <li>Arrival & Departure Arrangement</li>
+            <li>Local Residence Arrangement</li>
+            <li>Visa Handling & Issuance</li>
+            <li>Airport Meet & Assist</li>
+            <li>
+                Excursions and Tours
+            </li>
+            <li>Off-site Dinners</li>
+        </ul>
+    </div>
+            </div>
+            <div class="micethirddiv">
+                <p>Venue Management</p>
+                <div class="firstcontainercontents">
+                    <ul>
+                        <li>Venue Booking and Setup</li>
+                        <li>Meeting Room Setup</li>
+                        <li>Audio and Visual setup</li>
+                        <li>Branding & Printings</li>
+                        <li>Menus</li>
+                        <li>Breakout Rooms</li>
+                        <li>Agenda</li>
+                        <li>Gala Dinners</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <div class="miceseconddiv">
+                <p>Vendor Management</p>
+                <div class="firstcontainercontents">
+
+                    <ul>
+                        <li>Team Building Activities</li>
+                        <li>Online Registration</li>
+                        <li>Web-casting & Web Streaming</li>
+                        <li>Congress Registration</li>
+                        <li>Hotels, Restaurants, and Transportation</li>
+                        <li>Airport formalities</li>
+                        <li>Congress registration</li>
+                        <li>Third party Management</li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="micefourthdiv">
+                <p>Audio</p>
+                <div class="firstcontainercontents">
+
+                    <ul>
+                        <li>Audio and Video Recording</li>
+                        <li>Conference Sound Systems</li>
+                        <li>Concerts & Gala Dinners Sound Systems</li>
+                        <li>DJ sourcing</li>
+                        <li>Sound System Rental</li>
+                      
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="micefifthdiv">
+                <p>Visuals</p>
+                <div class="firstcontainercontents">
+
+                    <ul>
+                        <li>LED Screens</li>
+                        <li>Light Systems</li>
+                        <li>Projection</li>
+                        <li>Laser Mapping</li>
+                        <li>Photography and Videography</li>
+                        <li>Video Editing</li>
+                        <li>Live Entertainment</li>
+                        <li>Rigging – Trusses rentals</li>
+
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="educationandtechnologycontainer">
+        <div class="image-container">
+            <img src="icones/mice/5367260 1.png" alt="Main Image" class="footer-logo">
+            <img src="icones/mice/Untitled-1 1.png" alt="Overlay Image" class="overlay-image">
+            <a href="technology.html" class="technologyimage-text">Technology</a>
+        </div>
+        
+        <div class="educationimage-container">
+            <img src="icones/mice/5367260 2.png" alt="Description of the image" class="footer-logo">
+            
+            <a href="education.html" class="technologyimage-text">Education</a>
+            <img src="icones/mice/Untitled-1 2.png" alt="Overlay Image" class="educationoverlay-image">
+        </div>
+    </div>
+    <p class="helpinmanywaystext">We can help in<br/>
+        <span> 
+            many ways!</span></p>
+            <div class="inquireimage-container">
+                <img src="icones/mice/53672610 1 (1).png" alt="Main Image" class="footer-logo">
+                <a href="contact.html" class="technologyimage-text">Inquire Now</a>
+            </div>
+    <div id="footer"></div>
+
+    <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+     <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    
+</body>
+</html>

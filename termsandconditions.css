@@ -1,0 +1,105 @@
+.termstext {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #005AA9;
+}
+
+/* Container Responsive */
+.termscontainer {
+    margin-left: 10%;
+    margin-right: 30%;
+    width: 80%; /* 100% - (10% left + 30% right) */
+}
+
+
+/* Paragraphs */
+.termscontainer p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    
+}
+
+/* Headings */
+.termscontainer h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #005AA9;
+}
+
+/* Lists */
+.termscontainer ul {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .termscontainer {
+        margin-left: 5%;
+        width: 95%;
+    }
+    .termstext,
+    .termscontainer p,
+    .termscontainer ul {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .termscontainer h3 {
+        font-size: 18px;
+    }
+}
+
+/* Large Phones & Small Tablets */
+@media (max-width: 768px) {
+    .termscontainer {
+        margin-left: 3%;
+        width: 94%;
+    }
+    .termstext,
+    .termscontainer p,
+    .termscontainer ul {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .termscontainer h3 {
+        font-size: 18px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+    .termscontainer {
+        margin-left: 2%;
+        width: 96%;
+    }
+    .termstext,
+    .termscontainer p,
+    .termscontainer ul {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .termscontainer h3 {
+        font-size: 16px;
+    }
+    /* Improve spacing for smaller screens */
+    .termscontainer p,
+    .termscontainer ul {
+        margin-bottom: 10px;
+    }
+}

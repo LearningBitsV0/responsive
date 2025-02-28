@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+<div id="navbar"></div>
+    <!-- Navbar container (Placed at the top) -->
+    
+    <div>
+        <div class="first-container-headline">
+            <div><img src="icones/design/Isolation_Mode.png" alt="" /></div>
+            <div><h1>DESIGN</h1></div>
+          </div>
+        <!-- <div class="designcontainer">
+
+            <img src="" alt="Description of the image" class="design-logo">
+            <p></p>
+        </div> -->
+<p class="designparagraph">We have a creative design department that specializes in providing communication and promotional solutions. We<br/> ensure that your products and services are communicated to your target audience using the correct media<br/> channel resulting in business profits every day.</p>
+<br/>
+<p class="designparagraph">If you need a creative design for an Ad campaign or a new product launch we can offer you<br/> the best solution you are searching for. </p>
+    </div>
+ <div class="designmaindiv">
+    <img src="icones/design/shutterstock_658472668 1 (1).png" alt="Description of the image" class="design-mainlogo">
+<div class="designmaincontentdiv">
+   <p class="designmainheading">Our services include :</p> 
+   <ul>
+    <li>Graphic Design</li>
+    <li>Meetings collateral design and<br/> production</li>
+    <ul>
+        <li>Large scale back drops</li>
+        <li>Creative popup and roll-ups</li>
+        <li>Danglers, Flags and Foam Boards</li>
+        <li>Kiosk and Podium branding</li>
+    </ul>
+    <li>Printing Management</li>
+    <li>Animated Video Graphics</li>
+    <li>Digital Video Content</li>
+    <li>Audio & Video Production</li>
+    <li>Event Photography & Videography</li>
+    <li>Content Creation</li>
+    <li>Custom PowerPoint Presentations</li>
+    <li>Invitation Design</li>
+    <li>
+        Printing Services (including large format printing)</li>
+<li>Renderings & CAD Drawings</li>
+<li>Promotional Items & Giveaways</li>
+<li>Concept Design & Theme Services</li>
+<li>3D Design & Mock up Visualization</li>
+<li>Content Solutions</li>
+<li>Digital Media Solutions</li>
+<li>Print Media Design</li>
+   </ul>
+</div>
+ </div>
+    <div class="educationandtechnologycontainer">
+        <div class="image-container">
+            <img src="icones/design/5367260 1.png" alt="Main Image" class="footer-logo">
+            <img src="icones/design/Untitled-1 1.png" alt="Overlay Image" class="overlay-image">
+            <a href="education.html" class="technologyimage-text">Education</a>
+        </div>
+        
+        <div class="Exhibitionsimage-container">
+            <img src="icones/design/5367260 2.png" alt="Description of the image" class="footer-logo">
+            
+            <a href="exhibition.html" class="Exhibitionsimage-text">Exhibitions</a>
+            <img src="icones/design/Untitled-1 2.png" alt="Overlay Image" class="Exhibitionsnoverlay-image">
+        </div>
+    </div>
+    <p class="helpinmanywaystext">We can help in<br/>
+        <span> 
+            many ways!</span></p>
+            <div class="inquireimage-container">
+                <img src="icones/design/53672610 1 (1).png" alt="Main Image" class="footer-logo">
+                <a href="contact.html" class="technologyimage-text">Inquire Now</a>
+            </div>
+    <div id="footer"></div>
+
+    <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+     <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    
+</body>
+</html>

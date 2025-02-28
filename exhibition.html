@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exhibition.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- Navbar container (Placed at the top) -->
+
+    <div>
+      <div class="first-container-headline">
+        <div><img src="icones/exhibition/Isolation_Mode (1).png" alt="" /></div>
+        <div><h1>Exhibition</h1></div>
+      </div>
+      <!-- <div class="exibitioncontainer">
+        <img
+          src=""
+          alt="Description of the image"
+          class="exibition-logo"
+        />
+        <p></p>
+      </div> -->
+      <p class="exibitionparagraph">
+        Through our Exhibition Services, we are proud to provide you with a
+        personalized service to help you and your team <br />
+        with your project needs from initial discussion to delivery and
+        installation.
+      </p>
+      <p class="exibitionparagraph">
+        We design and produce custom modular exhibition stands by providing our
+        clients with project management,<br />
+        production, and installation services throughout the UAE.
+      </p>
+      <p class="exibitionparagraph">
+        We can assist in floor planning, venue and equipment logistics, and
+        complete on-site support.
+      </p>
+    </div>
+    <div class="exibitionmaindiv">
+      <img
+        src="icones/exhibition/WhatsApp Image 2024-09-21 at 15.09.05_714bf67f-2 1.png"
+        alt="Description of the image"
+        class="design-mainlogo"
+      />
+      <div class="exibitionmaincontentdiv">
+        <p class="exibitionnmainheading">Our services include :</p>
+        <ul>
+          <li>Exhibition Stands Design</li>
+          <li>
+            Double Deck and Modular Exhibition Stands<br />
+            Production
+          </li>
+
+          <li>Stands/ Exhibition Booth Construction</li>
+          <li>
+            Furniture, Lighting, Cabinets and Reception<br />
+            Counters Rentals
+          </li>
+          <li>Installation and Dismantling Services</li>
+          <li>
+            <span>customization Themes :</span> Designs that align<br />
+            with your brand message
+          </li>
+          <li>
+            <span>Innovative Space Utilization :</span> Practical<br />
+            and visually appealing stands
+          </li>
+          <li>
+            <span>Dynamic Layouts :</span> Adaptable to different<br />
+            sizes and shapes
+          </li>
+          <li>
+            <span>Eye-Catching Graphics :</span> Striking designs <br />to
+            attract attention
+          </li>
+          <li>
+            <span>Modular Elements :</span> Easy reconfiguration <br />for
+            future events
+          </li>
+          <li>
+            <span>Interaction Areas :</span> Enhancing<br />
+            visitor engagement
+          </li>
+          <li><span>Strategic Lighting :</span> Highlighting key areas</li>
+          <li>
+            <span>Multimedia Integration :</span> Improving visitor
+            <br />experience
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="exibitionbuttoncontainer">
+      <div class="image-container">
+        <img
+          src="icones/exhibition/5367260 1.png"
+          alt="Main Image"
+          class="footer-logo"
+        />
+        <img
+          src="icones/exhibition/Untitled-1 1.png"
+          alt="Overlay Image"
+          class="overlay-image"
+        />
+        <a href="design.html" class="technologyimage-text">Design</a>
+      </div>
+
+      <div class="Exhibitionsimage-container">
+        <img
+          src="icones/exhibition/5367260 2.png"
+          alt="Description of the image"
+          class="footer-logo"
+        />
+
+        <a href="technology.html" class="Exhibitionsimage-text">Technology</a>
+        <img
+          src="icones/exhibition/Untitled-1 2.png"
+          alt="Overlay Image"
+          class="Exhibitionsnoverlay-image"
+        />
+      </div>
+    </div>
+    <p class="helpinmanywaystext">
+      We can help in<br />
+      <span> many ways!</span>
+    </p>
+    <div class="inquireimage-container">
+      <img
+        src="icones/exhibition/53672610 1 (1).png"
+        alt="Main Image"
+        class="footer-logo"
+      />
+      <a href="contact.html" class="technologyimage-text">Inquire Now</a>
+    </div>
+    <div id="footer"></div>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+   <script>
+    fetch('nav.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById("navbar-container").innerHTML = html;
+        })
+        .then(() => {
+            document.getElementById("languageToggle").addEventListener("click", function () {
+                alert("Button Clicked!");
+            });
+        });
+</script>
+  
+  </body>
+</html>

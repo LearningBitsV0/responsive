@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+.privacytext {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #005AA9;
+}
+
+/* Container Responsive */
+.privacycontainer {
+    margin-left: 10%;
+    width: 90%;
+}
+
+/* Paragraphs */
+.privacycontainer p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* Headings */
+.privacycontainer h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #005AA9;
+}
+
+/* Lists */
+.privacycontainer ul {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* Underlined Links */
+.privacylink {
+    text-decoration: underline;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .privacycontainer {
+        margin-left: 5%;
+        width: 95%;
+    }
+    .privacytext, 
+    .privacycontainer p, 
+    .privacycontainer ul {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .privacycontainer h3 {
+        font-size: 22px;
+    }
+}
+
+/* Large Phones & Small Tablets */
+@media (max-width: 768px) {
+    .privacycontainer {
+        margin-left: 3%;
+        width: 94%;
+    }
+    .privacytext, 
+    .privacycontainer p, 
+    .privacycontainer ul {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .privacycontainer h3 {
+        font-size: 20px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+    .privacycontainer {
+        margin-left: 2%;
+        width: 96%;
+    }
+    .privacytext, 
+    .privacycontainer p, 
+    .privacycontainer ul {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .privacycontainer h3 {
+        font-size: 18px;
+    }
+    /* Improve spacing for smaller screens */
+    .privacycontainer p, 
+    .privacycontainer ul {
+        margin-bottom: 10px;
+    }
+}

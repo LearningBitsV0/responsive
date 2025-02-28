@@ -1,0 +1,223 @@
+.main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+}
+
+.first-container {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.first-container-headline {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    color: #005AA9;
+    width: 80%;
+    padding: 2rem 0px 21px 6rem;
+}
+
+.first-container-para {
+    padding: 2rem 0px 21px 6rem;
+    width: 80%;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* seconde container */
+.second-container {
+    display: flex;
+    width: 100%;
+    height: 545px;
+
+}
+
+.second-container-left {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    align-items: end;
+
+    position: relative;
+    /* Needed for positioning the pseudo-element */
+    overflow: hidden;
+    /* Prevents overlay from overflowing */
+    background-image: url('icones/education/Design-Small 1.png');
+    width: 50%;
+    /* height: 544px; */
+    object-fit: cover;
+    z-index: -2;
+
+
+
+}
+
+.second-container-left::before {
+    content: "";
+    /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a0a0a0a6;
+    /* Adjust opacity (0.3) for darkness */
+    /* Or use a gradient for a more complex effect:
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)); */
+    z-index: 1;
+    /* Place overlay above the image but below content */
+}
+
+.second-container-left-head {
+    position: relative;
+    z-index: 3;
+    color: aliceblue;
+    padding: 0 0 35px 0;
+}
+
+/* .second-container-left h1{
+    
+    color: white;
+} */
+.second-container-right {
+
+    width: 50%;
+    position: relative;
+    /* Needed for positioning the pseudo-element */
+    overflow: hidden;
+    /* Prevents overlay from overflowing */
+    background-image: url('icones/education/Design-Small 1 (1).png');
+    width: 50%;
+    /* height: 544px; */
+    object-fit: cover;
+    z-index: -2;
+}
+
+.second-container-right::before {
+    content: "";
+    /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #015aa9a6;
+    /* Adjust opacity (0.3) for darkness */
+    /* Or use a gradient for a more complex effect:
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)); */
+    z-index: 1;
+    /* Place overlay above the image but below content */
+}
+
+.second-container-right-texts {
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-second-container-right-texts {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.second-container-right-ul {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+
+}
+
+/* third container */
+.third-container {
+    padding: 4rem 0 0 0;
+    width: 100%;
+    height: 21rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.left-third-container{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 46px 0px 29px;
+    align-items: center;
+    font-weight: 400;
+    background-image: url('icones/education/5367260\ 1\ \(3\).png');
+    width: 11rem;
+    height: 3rem;
+}
+
+.middle-third-container {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 3rem;
+}
+
+.sub-middle-third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #005AA9;
+}
+.sub-middle-third-container h2{
+    font-weight: 100;
+    font-size: 36px;
+
+}
+.sub-middle-third-container h1{
+    font-size: 36px;
+}
+.right-third-container {
+    background-image: url('icones/education/5367260\ 2\ \(1\).png');
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 23px 0px 32px;
+    color: white;
+
+}
+
+.middle-third-container-img {
+    background-image: url('icones/education/53672610\ 1\ \(3\).png');
+    width: 13rem;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}

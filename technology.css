@@ -1,0 +1,192 @@
+.first-container-headline {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    color: #005AA9;
+    width: 80%;
+    padding: 2rem 0px 21px 7rem;
+}
+a{
+    text-decoration: none;
+}
+.design-logo {
+    width: 72px;
+    height: 72px;
+    margin-top: 5%;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.designparagraph {
+    margin-left: 10%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.educationandexibitioncontainer {
+    display: flex;
+    margin-left: 10%;
+}
+
+.footer-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    margin-left: 20px;
+}
+
+.Exhibitionsnoverlay-image {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.technologyimage-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 100px;
+    display: flex;
+}
+
+.educationandtechnologycontainer {
+    display: flex;
+    margin-left: 10%;
+}
+
+.helpinmanywaystext {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #005AA9;
+    margin-left: 40%;
+}
+
+.helpinmanywaystext span {
+    font-family: Montserrat;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 71.92px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.Exhibitionsimage-container {
+    position: relative;
+    /* Enables absolute positioning inside */
+    display: inline-block;
+    left: 60%;
+    top: 10%;
+}
+
+.Exhibitionsoverlay-image {
+    position: absolute;
+    right: 10px;
+    /* Moves it to the right */
+    top: 50%;
+    /* Adjusts vertical alignment */
+    transform: translateY(-50%);
+    /* Centers it vertically */
+}
+
+.inquireimage-container {
+    position: relative;
+    /* Enables absolute positioning inside */
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.Exhibitionsimage-text {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust text position */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.educationimage-container {
+    position: relative;
+    display: inline-block;
+    left: 60%;
+    top: 10%;
+}
+
+.design-mainlogo {
+    margin-left: 10%;
+}
+
+.designmaincontentdiv {
+    background: #175BA7;
+    width: 542px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+
+}
+
+.designmaindiv {
+    display: flex;
+    margin: 0px 0px 14px 0;
+}
+
+.designmainheading {
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35.35px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-left: 20%;
+}
+
+.designmaincontentdiv li {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
