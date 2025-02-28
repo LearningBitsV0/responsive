@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <div>
+      <div id="navbar"></div>
+
+      <!-- Navbar container (Placed at the top) -->
+      <div class="ourservicecontainer">
+        <p class="ourprojects">Our<br /><span>Projects</span></p>
+      </div>
+      <div class="ourprojectsbutton">
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfolio.html">Nutricia Booth</a>
+        </button>
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfolioeightthpage.html"
+            >NMC conferences</a
+          >
+        </button>
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfoliothirdpage.html"
+            >Pharmacist Training Meeting</a
+          >
+        </button>
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfolioseventhpage.html"
+            >Gulf Airway Disease Meeting</a
+          >
+        </button>
+      </div>
+      <div class="ourprojectssecondbutton">
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfolioninthpage.html"
+            >ADCAN Pharma Event
+          </a>
+        </button>
+        <button class="nutriciabutton">
+          <a class="booth-buttontext" href="portfoliofifthpage.html"
+            >AMMS and Gigi Booth</a
+          >
+        </button>
+        <button class="nutriciabutton">
+          <a href="portfoliofourthpage.html" class="booth-buttontext"
+            >Biologix Booth</a
+          >
+        </button>
+      </div>
+
+      <div class="paragraphcontainer">
+        <div>
+          <p class="NutriciaBoothparagraph">
+            Nutricia Booth<br />
+            <span>Design & Execution</span>
+          </p>
+          <p class="paragraph">
+            From concept to reality, we at Limitless<br />
+            Solutions created an innovative booth design<br />
+            for Nutricia, starting from 3D visualization to <br />final
+            execution. We ensured a seamless blend<br />
+            of the brand’s identity with an engaging<br />
+            experience, focusing on every detail to<br />
+            deliver a strong presence at the exhibition.<br />
+            Explore the journey from design to<br />
+            completion through the attached images.
+          </p>
+        </div>
+        <!-- slider updated animated content -->
+        <div class="ourserviceimagecontainer">
+          <!-- Main Image Display -->
+          <div class="main-slider">
+            <!-- Image or video will be inserted dynamically here -->
+          </div>
+
+          <!-- Thumbnail Images -->
+          <div class="thumbnail-slider">
+            <img
+              src="../icones/portfolio/1 94572.png"
+              alt="Thumbnail 1"
+              class="thumb"
+              onclick="changeSlide(0)"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Thumbnail 2"
+              class="thumb"
+              onclick="changeSlide(1)"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Thumbnail 2"
+              class="thumb"
+              onclick="changeSlide(2)"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Thumbnail 2"
+              class="thumb"
+              onclick="changeSlide(3)"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Thumbnail 2"
+              class="thumb"
+              onclick="changeSlide(4)"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Thumbnail 2"
+              class="thumb"
+              onclick="changeSlide(5)"
+            />
+            <img
+              src="../icones/portfolio/video.mp4"
+              alt="Thumbnail 3"
+              class="thumb"
+              onclick="changeSlide(6)"
+            />
+            <img
+              src="../icones/portfolio/Danone Booth Video 1 (1).png"
+              alt="Thumbnail 4"
+              class="thumb"
+              onclick="changeSlide(7)"
+            />
+          </div>
+
+          <!-- Dots Indicator -->
+          <div class="sliderimagesdot">
+            <span class="sliderdot active" onclick="changeSlide(0)"></span>
+            <span class="sliderdot" onclick="changeSlide(1)"></span>
+            <span class="sliderdot" onclick="changeSlide(2)"></span>
+            <span class="sliderdot" onclick="changeSlide(3)"></span>
+            <span class="sliderdot" onclick="changeSlide(4)"></span>
+            <span class="sliderdot" onclick="changeSlide(5)"></span>
+            <span class="sliderdot" onclick="changeSlide(6)"></span>
+            <span class="sliderdot" onclick="changeSlide(7)"></span>
+            
+          </div>
+        </div>
+
+        <!-- slider previous static content -->
+        <!-- <div class="ourserviceimagecontainer">
+          <img
+            src="../icones/portfolio/1 94572.png"
+            alt="Description of the image"
+            class="footer-logo"
+          />
+          <div>
+            <img
+              src="../icones/portfolio/1 94572.png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+            <img
+              src="../icones/portfolio/1 94572.png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+            <img
+              src="../icones/portfolio/Booth-Nutricia-20004 1.png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+            <img
+              src="../icones/portfolio/Danone Booth Video 1 (1).png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+            <img
+              src="../icones/portfolio/Danone Booth Video 1 (1).png"
+              alt="Description of the image"
+              class="sliderimages"
+            />
+          </div>
+          <div class="sliderimagesdot">
+            <img
+              src="../icones/portfolio/Ellipse 8.png"
+              alt="Description of the image"
+              class="sliderdot"
+            />
+            <img
+              src="../icones/portfolio/Ellipse 9.png"
+              alt="Description of the image"
+              class="sliderdot"
+            />
+            <img
+              src="../icones/portfolio/Ellipse 9.png"
+              alt="Description of the image"
+              class="sliderdot"
+            />
+            <img
+              src="../icones/portfolio/Ellipse 9.png"
+              alt="Description of the image"
+              class="sliderdot"
+            />
+            <img
+              src="../icones/portfolio/Ellipse 9.png"
+              alt="Description of the image"
+              class="sliderdot"
+            />
+          </div>
+        </div> -->
+      </div>
+      <div>
+        <img
+          src="../icones/portfolio/1 94572.png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+
+        <img
+          src="../icones/portfolio/1 94573 (1).png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+        <img
+          src="../icones/portfolio/1 945723477.png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+        <img
+          src="../icones/portfolio/1 9457234.png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+
+        <img
+          src="../icones/portfolio/1 94572 (1).png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+        <img
+          src="../icones/portfolio/1 94572 (2).png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+        <img
+          src="../icones/portfolio/1 94572 (4).png"
+          alt="Description of the image"
+          class="portfolioimages"
+        />
+      </div>
+      <div class="main-container4">
+        <div class="sub-container4">
+          <div class="sub-container4-text">
+            Find More by checking our profile
+          </div>
+          <div class="sub-container4-image">
+            <img src="../icones/portfolio/53672666065 1.png" alt="" />
+            <a href="../about.html" class="sub-container4-img-inner-text">
+              Explore Our Company Profile
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer"></div>
+    </div>
+
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <!-- <script>
+      const images = [
+        "../icones/portfolio/1 94572.png",
+        "../icones/portfolio/Booth-Nutricia-20004 1.png",
+        "../icones/portfolio/Danone Booth Video 1 (1).png",
+        "../icones/portfolio/Booth-Nutricia-20004 1.png",
+        "../icones/portfolio/Danone Booth Video 1 (1).png"
+      ];
+    
+      let currentIndex = 0;
+      const mainImage = document.getElementById("mainImage");
+      const dots = document.querySelectorAll(".sliderdot");
+      const thumbnails = document.querySelectorAll(".thumb");
+    
+      function updateSlider() {
+        mainImage.style.opacity = "0"; // Fade out effect
+        setTimeout(() => {
+          mainImage.src = images[currentIndex];
+          mainImage.style.opacity = "1"; // Fade in effect
+        }, 300);
+    
+        // Update dots
+        dots.forEach(dot => dot.classList.remove("active"));
+        dots[currentIndex].classList.add("active");
+    
+        // Update thumbnails
+        thumbnails.forEach(thumb => thumb.classList.remove("active"));
+        thumbnails[currentIndex].classList.add("active");
+      }
+    
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateSlider();
+      }
+    
+      function changeSlide(index) {
+        currentIndex = index;
+        updateSlider();
+      }
+    
+      // Auto-slide every 3 seconds
+      setInterval(nextSlide, 3000);
+    </script> -->
+    <script>
+      const items = [
+        { type: "image", src: "../icones/portfolio/1 94572.png" },
+        {
+          type: "image",
+          src: "../icones/portfolio/Booth-Nutricia-20004 1.png",
+        },
+        /*  { type: "youtube", src: "https://www.youtube.com/embed/zb6EH78Z7_o" },*/
+        /*{ type: "video", src: "../videos/videosample.mp4" }, */
+        {
+          type: "image",
+          src: "../icones/portfolio/Danone Booth Video 1 (1).png",
+        },
+      ];
+
+      let currentIndex = 0;
+      const mainContainer = document.querySelector(".main-slider");
+      const dots = document.querySelectorAll(".sliderdot");
+      const thumbnails = document.querySelectorAll(".thumb");
+
+      function updateSlider() {
+        mainContainer.innerHTML = ""; // Clear previous content
+        const currentItem = items[currentIndex];
+
+        if (currentItem.type === "image") {
+          const img = document.createElement("img");
+          img.src = currentItem.src;
+          img.classList.add("fade-in");
+          img.onload = () => img.classList.add("loaded"); // Ensure image is fully loaded
+          mainContainer.appendChild(img);
+          setTimeout(nextSlide, 3000); // Move to next after 3 seconds
+        } else if (currentItem.type === "video") {
+          const video = document.createElement("video");
+          video.src = currentItem.src;
+          video.controls = true; // Add video controls (play, pause, etc.)
+          video.autoplay = true; // Automatically play the video
+          video.onended = nextSlide; // Move to next when video ends
+          mainContainer.appendChild(video);
+        } else if (currentItem.type === "youtube") {
+          const iframe = document.createElement("iframe");
+          iframe.src = currentItem.src + "?autoplay=1&enablejsapi=1";
+          iframe.frameBorder = "0";
+          iframe.allow = "autoplay; encrypted-media";
+          iframe.allowFullscreen = true;
+          mainContainer.appendChild(iframe);
+
+          // Use YouTube Player API to detect video end
+          waitForYouTubeVideoEnd(iframe);
+        }
+
+        // Update dots
+        dots.forEach((dot) => dot.classList.remove("active"));
+        if (dots[currentIndex]) {
+          dots[currentIndex].classList.add("active");
+        }
+
+        // Update thumbnails
+        thumbnails.forEach((thumb) => thumb.classList.remove("active"));
+        if (thumbnails[currentIndex]) {
+          thumbnails[currentIndex].classList.add("active");
+        }
+      }
+
+      // Helper function to monitor YouTube video end
+      function waitForYouTubeVideoEnd(iframe) {
+        const player = new YT.Player(iframe, {
+          events: {
+            onStateChange: (event) => {
+              if (event.data === YT.PlayerState.ENDED) {
+                nextSlide();
+              }
+            },
+          },
+        });
+      }
+
+      // Move to the next slide
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % items.length;
+        updateSlider();
+      }
+
+      // Manually change to a specific slide
+      function changeSlide(index) {
+        currentIndex = index;
+        updateSlider();
+      }
+
+      // Initialize the slider
+      document.addEventListener("DOMContentLoaded", () => {
+        // Load YouTube API if necessary
+        if (items.some((item) => item.type === "youtube")) {
+          const script = document.createElement("script");
+          script.src = "https://www.youtube.com/iframe_api";
+          document.head.appendChild(script);
+        }
+        updateSlider();
+      });
+
+      // Manual navigation via dots and thumbnails
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => changeSlide(index));
+      });
+
+      thumbnails.forEach((thumb, index) => {
+        thumb.addEventListener("click", () => changeSlide(index));
+      });
+    </script>
+  </body>
+</html>
